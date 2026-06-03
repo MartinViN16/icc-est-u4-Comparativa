@@ -8,6 +8,8 @@ public class Resultado {
     private double tiempoMillis;
     private double tiempoNano;
 
+    public Resultado() {}
+
     public Resultado (String algoritmo, String escenario, int sample, double tiempoNano) {
         this.algoritmo = algoritmo;
         this.escenario = escenario;

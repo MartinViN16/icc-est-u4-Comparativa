@@ -29,7 +29,7 @@ public class Persona {
         for(int i = 0; i < nombre.length(); i++) {
             valorNombre += nombre.charAt(i);
         }
-        return valorNombre;
+        return edad * 10000 + valorNombre;
     }
 
 }
